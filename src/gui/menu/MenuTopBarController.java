@@ -2,14 +2,9 @@ package gui.menu;
 
 import gui.main.Pages;
 import gui.main.SceneController;
-import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.scene.control.MenuBar;
-import javafx.scene.input.InputEvent;
-import javafx.scene.layout.VBox;
 
-import java.net.URL;
-import java.util.ResourceBundle;
+import javafx.fxml.FXML;
+import javafx.scene.control.MenuBar;
 
 public class MenuTopBarController
 {

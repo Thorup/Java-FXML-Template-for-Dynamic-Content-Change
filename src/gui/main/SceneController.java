@@ -2,6 +2,7 @@ package gui.main;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+
 import javafx.scene.Node;
 import javafx.scene.layout.VBox;
 
@@ -35,7 +36,8 @@ public class SceneController extends VBox
         this.resetContent();
     }
 
-    public static SceneController getInstance() {
+    public static SceneController getInstance()
+    {
         return _instance;
     }
 
@@ -49,14 +51,17 @@ public class SceneController extends VBox
     {
         this.getChildren().remove(activePage);
 
-        if (page.equals(Pages.PAGE1)) {
+        if (page.equals(Pages.PAGE1))
+        {
             this.setPage(this.page1);
-        } else if (page.equals(Pages.PAGE2)) {
+        } else if (page.equals(Pages.PAGE2))
+        {
             this.setPage(this.page2);
         }
     }
 
-    public void setPage(Node page) {
+    public void setPage(Node page)
+    {
         this.getChildren().add(page);
         this.activePage = page;
     }
