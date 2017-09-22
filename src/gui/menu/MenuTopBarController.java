@@ -22,8 +22,6 @@ public class MenuTopBarController
     public void handleAboutAction()
     {
         //TODO implement action on click
-        SceneController.getInstance().setContent(Pages.PAGE1);
-        System.out.println("Page 1 Action");
     }
 
     @FXML

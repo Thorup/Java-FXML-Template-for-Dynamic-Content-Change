@@ -60,7 +60,7 @@ public class SceneController extends VBox
         }
     }
 
-    public void setPage(Node page)
+    private void setPage(Node page)
     {
         this.getChildren().add(page);
         this.activePage = page;
