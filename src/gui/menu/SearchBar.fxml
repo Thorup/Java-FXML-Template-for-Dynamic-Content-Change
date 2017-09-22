@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import gui.menu.SearchBar?>
 
-<SearchBar id="vbox-searchBar" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.menu.SearchBarController">
-    <ToolBar fx:id="barSearch">
-        <items>
-            <Button fx:id="buttonCloseSearch" mnemonicParsing="false" styleClass="buttonSearchClose">
-                <graphic>
-                </graphic>
-            </Button>
-            <TextField fx:id="fieldSearch" styleClass="searchField">
-            </TextField>
-            <Button fx:id="buttonSearchUp" mnemonicParsing="false" styleClass="buttonSearchUp">
-                <graphic>
-                </graphic>
-            </Button>
-            <Button fx:id="buttonSearchDown" mnemonicParsing="false" styleClass="buttonSearchDown">
-                <graphic>
-                </graphic>
-            </Button>
-            <Label fx:id="labelMatches"/>
-        </items>
-    </ToolBar>
-</SearchBar>
+<ToolBar fx:id="searchBar" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.menu.SearchBarController">
+    <items>
+        <Button fx:id="buttonCloseSearch" mnemonicParsing="false" styleClass="buttonSearchClose">
+            <graphic>
+            </graphic>
+        </Button>
+        <TextField fx:id="fieldSearch" styleClass="searchField">
+        </TextField>
+        <Button fx:id="buttonSearchUp" mnemonicParsing="false" styleClass="buttonSearchUp">
+            <graphic>
+            </graphic>
+        </Button>
+        <Button fx:id="buttonSearchDown" mnemonicParsing="false" styleClass="buttonSearchDown">
+            <graphic>
+            </graphic>
+        </Button>
+        <Label fx:id="labelMatches"/>
+    </items>
+</ToolBar>
