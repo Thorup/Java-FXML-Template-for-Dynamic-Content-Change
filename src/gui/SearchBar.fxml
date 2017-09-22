@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import sample.SearchBar?>
+<?import gui.SearchBar?>
 
-<SearchBar id="vbox-searchBar" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.SearchBarController">
+<SearchBar id="vbox-searchBar" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.SearchBarController">
     <ToolBar fx:id="barSearch">
         <items>
             <Button fx:id="buttonCloseSearch" mnemonicParsing="false" styleClass="buttonSearchClose">

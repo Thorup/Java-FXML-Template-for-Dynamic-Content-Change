@@ -1,21 +1,17 @@
-package sample;
+package gui;
 
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.VBox;
-import javafx.stage.Window;
 
 import java.io.IOException;
-import java.time.temporal.Temporal;
 
-public class MainController extends VBox
+public class SceneController extends VBox
 {
-
-    public MainController()
+    public SceneController()
     {
         try
         {
-            FXMLLoader loader = new FXMLLoader(MainController.class.getResource("Main.fxml"));
+            FXMLLoader loader = new FXMLLoader(SceneController.class.getResource("Scene.fxml"));
             loader.setRoot(this);
             loader.setController(this);
             loader.load();

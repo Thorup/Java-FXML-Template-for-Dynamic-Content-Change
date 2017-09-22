@@ -3,9 +3,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.VBox?>
 
-<?import sample.MenuTopBar?>
+<?import gui.MenuTopBar?>
 
-<MenuTopBar id="vbox-menuBar" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.MenuTopBarController">
+<MenuTopBar id="vbox-menuBar" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.MenuTopBarController">
     <MenuBar fx:id="menuBar" onKeyPressed="#handleKeyInput">
         <menus>
             <Menu text="File">

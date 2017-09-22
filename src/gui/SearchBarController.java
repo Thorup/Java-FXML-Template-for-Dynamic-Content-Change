@@ -1,5 +1,6 @@
-package sample;
+package gui;
 
 public class SearchBarController
 {
+
 }
