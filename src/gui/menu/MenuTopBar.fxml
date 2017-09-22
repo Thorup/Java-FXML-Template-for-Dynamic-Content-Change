@@ -3,9 +3,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.VBox?>
 
-<?import gui.MenuTopBar?>
+<?import gui.menu.MenuTopBar?>
 
-<MenuTopBar id="vbox-menuBar" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.MenuTopBarController">
+<MenuTopBar id="vbox-menuBar" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.menu.MenuTopBarController">
     <MenuBar fx:id="menuBar" onKeyPressed="#handleKeyInput">
         <menus>
             <Menu text="File">
@@ -16,6 +16,8 @@
                     <MenuItem text="Save As"/>
                     <SeparatorMenuItem/>
                     <MenuItem text="Exit"/>
+                    <MenuItem text="Page1" onAction="#handlePage1Action"/>
+                    <MenuItem text="Page2" onAction="#handlePage2Action"/>
                 </items>
             </Menu>
             <Menu text="Edit">

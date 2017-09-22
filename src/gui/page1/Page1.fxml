@@ -6,6 +6,6 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.Page2Controller">
-    <Label>Content page 2</Label>
-</AnchorPane>
+<VBox fx:id="content" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.page1.Page1Controller">
+    <Label>Content page 1</Label>
+</VBox>

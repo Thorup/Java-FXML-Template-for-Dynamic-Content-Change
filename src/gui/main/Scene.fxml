@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<fx:root xmlns:fx="http://javafx.com/fxml" type="VBox">
+    <fx:include fx:id="menuBarTemplate" source="../menu/MenuTopBar.fxml"/>
+    <fx:include fx:id="searchBarTemplate" source="../menu/SearchBar.fxml"/>
+    <fx:include fx:id="page1" source="../page1/Page1.fxml"/>
+    <fx:include fx:id="page2" source="../page2/Page2.fxml"/>
+</fx:root>

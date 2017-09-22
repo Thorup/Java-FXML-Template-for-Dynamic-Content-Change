@@ -1,13 +1,14 @@
-package gui;
+package gui.main;
 
 import javafx.application.Application;
+import javafx.fxml.FXML;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class Main extends Application
 {
-
     @Override
     public void start(Stage primaryStage)
     {
@@ -23,6 +24,8 @@ public class Main extends Application
             System.out.println("Error on Stage setup:");
             e.printStackTrace();
         }
+
+
     }
 
     public static void main(String[] args)

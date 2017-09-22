@@ -1,4 +1,4 @@
-package gui;
+package gui.menu;
 
 import javafx.fxml.Initializable;
 import javafx.scene.layout.VBox;
