@@ -12,12 +12,19 @@ public class MenuTopBarController
     @FXML
     private MenuBar menuBar;
 
+
+    /**
+     * Handles key input for the menu
+     */
     @FXML
     public void handleKeyInput()
     {
         //TODO implement keyinput method
     }
 
+    /**
+     * Handles the page1 redirect
+     */
     @FXML
     public void handlePage1Action()
     {
@@ -25,6 +32,9 @@ public class MenuTopBarController
         System.out.println("Page 1 Action");
     }
 
+    /**
+     * Handles the page1 redirect
+     */
     @FXML
     public void handlePage2Action()
     {
